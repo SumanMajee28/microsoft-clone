@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+
+.nav{
+    display: flex;
+    padding: 0vw 5vw;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    /* background-color:aliceblue; */   
+}
+
+
+
+.left-nav{
+    width: 50%;
+    height: 100%;
+     /* background-color: rgb(159, 137, 137);  */
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+}
+
+
+#logo img{
+    width: 110px;
+}
+
+
+.left-nav a{
+   font-size: 14px;
+   text-decoration: none;
+   color: black;   
+}
+
+
+.right-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 23%;
+    height: 100%;
+}
+
+
+.right-nav a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;    
+}
+
+
+.right-nav h3{
+    font-weight: 100 !important;
+}
+
+
+.right-nav i{
+    font-size: 17px;
+}
+
+
+.right-nav img{
+    width: 50%;
+}
+
+
+#page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0vw .50vw;
+}
+
+
+#page1 img{
+    width: 100%;
+}
+
+
+.box{
+    height: 30%;
+    width: 30%;
+    top: 47%;
+    position: absolute;
+    left: 60%;  
+}
+
+
+.box h1{
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+#page1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+
+
+.button button{
+    width: 30%;
+    height: 50%;
+    color: white;
+    background-color:#0067B8;
+    border: none;
+    padding: 2.5% 1.7%;
+}
+
+
+/**********************************************/
+
+#page2{
+    width: 100%;
+    height: 110%;
+}
+
+
+.bar{
+    height:10%;
+    width: 15%;
+    position: absolute;
+    left:43%;
+    /* left:35%; */
+    align-items: center;
+    justify-content: space-around;
+    display:flex;
+}
+
+
+.bar i:nth-child(1){
+    font-size:180%;
+    font-weight: 100;
+}
+
+
+.bar i:nth-child(2){
+    font-size:200%;
+    font-weight: 100;
+}
+.bar i:nth-child(3){
+    font-size:11px;
+    font-weight:100;
+}
+.bar i:nth-child(4){
+    font-size:11px;
+    font-weight: 100;
+}
+.bar i:nth-child(5){
+    font-size:200%;
+    font-weight: 100;
+}
+
+
+.circle{
+    font-size: 50%;
+}
+
+
+#body1{
+ width: 70%;
+ height: 30%;
+ position: absolute;
+ margin-top:5%;
+left: 15%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.win{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+ .win img{
+    width: 40px;
+ }
+
+
+ .body2{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    left: 5%;
+    margin-top:17%;
+    align-items: center;
+    text-decoration: none;
+ }
+
+
+ .pic{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;  
+}
+
+
+.body2 img{
+    width: 270px;
+ }
+
+
+ .pic a{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    word-spacing: 0.1vw;
+    font-size: 1.2vw;
+ }
+
+
+ .content{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+/********************************************/*
+
+
+
+#page3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+     */
+    padding: 0vw .50vw;
+}
+
+
+#imgp3{
+    margin: auto;
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP4-1260x600");
+      background-position: center;
+      background-size: cover;
+      width: 91%;
+      height: 95%;
+}
+
+
+.box3{
+    height: 44%;
+    width: 30%;
+    top: 28%;
+    left: 12%;
+    position: absolute;
+    /* background-color: aquamarine; */ 
+}
+
+
+.box3 h1{
+    font-family: sans-serif;
+    font-weight: 545;
+}
+
+
+#page3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+.button3 button{
+    width: 42%;
+    height: 50%;
+    color: white;
+    background-color:#0067B8;
+    border: none;
+    padding: 2.5% 1.7%;
+}
+
+/*****************************************/*
+
+
+#page4{
+    position: relative;
+    width: 100%;
+    height: 108%;
+    
+ }
+
+
+ .pic2{
+    margin-top: 5%;;
+    height: 65%;    
+}
+
+
+.content2 img{
+    width: 260px;
+ }
+
+
+.content2 h2{
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+ .pic2 a{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    word-spacing: 0.1vw;
+    font-size: 1.2vw;
+ }
+
+
+ .content2{
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+
+ .button4 button{
+    width: 20%;
+    color:black;
+    background-color:#FFB900;
+    border: none;
+    padding: 2.5% 1.7%;
+}
+#page4 .head h1{
+    position: absolute;
+    /* background-color: #0067B8; */
+    top: 13%;
+    left: 4%;
+    
+
+}
+
+/**********************************************/*
+
+
+#page5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0vw .50vw;
+    
+}
+
+
+#imgpg5{margin: auto;
+ 
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Microsoft-Responsible-AI:VP4-1260x600");
+      background-position: center;
+      background-size: cover;  
+      width: 91%;
+      height: 95%;
+      
+}
+
+
+.box5{
+    top: 10vw;
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    width: 35%;
+    padding:3vw 2vw ;
+     background-color: white;     
+}
+
+
+.box5 h1{
+    font-family: sans-serif;
+    font-weight: 545;
+}
+
+
+#page5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+.button5 button{
+    padding: 0;
+    color: white;
+    background-color:#0067B8;
+    border: none;
+    padding: 2.5% 1.7%;
+}
+
+
+#page6{
+    width: 100%;
+    height: 100%;
+    /* background-color: #FFB900;  */
+    
+}
+
+#page6 .content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #f0f0f0;
+    height: 70%;
+    width: 100%;
+}
+
+
+.bar3{
+        display: flex;
+       align-items: center;
+        width: 30%;
+        height: 14%;  
+         margin-left: 5%;
+    }
+
+
+#page6 h2{
+        font-weight: 300;
+        font-size: 100%;
+    }
+
+
+#logo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        size-adjust: 100%;
+     }
+
+
+#logo1 img{
+        width:50%;
+     }
+
+     
+.pic6{    
+    font-size: 1vw;
+    width: 15%;
+    height: 70%;
+    line-height: 2.4vw;
+    /* background-color: #0067B8; */
+}
+
+#pic6{
+    width: 100px;
+}
+
+
+.pic6 a{
+    text-decoration: none;
+    color:#616161;
+}
+
+
+.pic6 h3{
+color:#616161;
+}
+
+
+
+ 
+
+
+
+
+
+
+
